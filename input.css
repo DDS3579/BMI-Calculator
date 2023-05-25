@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/970013170/photo/golden-background.jpg?b=1&s=170667a&w=0&k=20&c=59H636cJUxuH1wrBKVeE6skDtoa-SS6AXUQfqTCA9kQ=");
+    background-size: cover;
+}

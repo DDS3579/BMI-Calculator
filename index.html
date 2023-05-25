@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <title>BMI Caluclator Project</title>
+  </head>
+  <body>
+    <div
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-d bg-sky-300 block rounded-xl"
+      id="div-container"
+    >
+      <br />
+      <h1
+        class="font-extrabold text-center rounded-full text-3xl bg-red-400 ml-21 mr-21 pb-5 pt-5 block text-white font-c"
+      >
+        BMI Calculator
+      </h1>
+      <br />
+      <p
+        class="font-medium text-center text-white rounded-full pb-4 pt-4 bg-emerald-400 ml-14 mr-14 text-lg"
+        id="desc-change"
+      >
+        Know whether your body weight is healthy or not right now!
+      </p>
+      <br />
+      <div class="">
+        <form>
+          <div class="mb-6">
+            <label
+              for="weight"
+              class="block ml-21 mb-2 font-medium text-black text-lg font-c"
+              >Your Weight</label
+            >
+            <div class="inp-chk flex">
+              <input
+                type="number"
+                id="weight"
+                class="bg-white border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ml-1/10 mr-1/10"
+                placeholder="Weight Here Please"
+                required
+              />
+              <div class="flex-parent-radio">
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    name="scale-weight"
+                    id="scale-1-w"
+                    value=""
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  />
+                  <label
+                    for="default-checkbox"
+                    class="font-c text-center text-lg ml-1/10"
+                    >KiloGrams</label
+                  >
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    name="scale-weight"
+                    id="scale-2-w"
+                    value=""
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  />
+                  <label
+                    for="checked-checkbox"
+                    class="font-c text-center text-lg ml-1/10"
+                    >Pounds</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-6">
+            <label
+              for="height"
+              class="block ml-21 mb-2 font-medium text-black text-lg font-c"
+              >Your Height</label
+            >
+            <div class="flex inp-chk">
+              <input
+                type="number"
+                id="height"
+                class="bg-white border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ml-1/10 mr-1/10"
+                placeholder="Height Here Please"
+                required
+              />
+              <div class="flex-parent-radio">
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    name="scale-height"
+                    id="scale-1-h"
+                    value=""
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  />
+                  <label
+                    for="default-checkbox"
+                    class="font-c text-center text-lg ml-1/10"
+                    >Centimeter  </label
+                  >
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    name="scale-height"
+                    id="scale-2-h"
+                    value=""
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  />
+                  <label
+                    for="checked-checkbox"
+                    class="font-c text-center text-lg ml-1/10"
+                    >Feet</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <button
+          onclick="calculate()"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full pb-3 pt-3 pl-5 pr-5 ml-30 mr-30 text-sm w-2/5 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          id="btn-submit"
+          style="width: 40%"
+        >
+          Submit
+        </button>
+        <br />
+        <br />
+        <p class="text-center text-lg font-semibold font-c" id="result">
+          Your Result will be Displayed here!
+        </p>
+        <br />
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
