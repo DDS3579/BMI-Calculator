@@ -13,3 +13,60 @@ body{
     background-image: url("https://media.istockphoto.com/id/970013170/photo/golden-background.jpg?b=1&s=170667a&w=0&k=20&c=59H636cJUxuH1wrBKVeE6skDtoa-SS6AXUQfqTCA9kQ=");
     background-size: cover;
 }
+
+.w-d{
+    width: 60%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-dr{
+    width: 90%;
+}
+
+.ml-21{
+    margin-left: 15%;
+}
+
+.mr-21{
+    margin-right: 15%;
+}
+
+.ml-1/10{
+    margin-left: 10%;
+}
+
+.mr-1/10{
+    margin-right: 10%;
+}
+.ml-2.50{
+    margin-left: 42%;
+}
+
+.mr-2.50{
+    margin-right: 42%;
+}
+.ml-rdiv{
+    margin-left: 5%;
+}
+
+.mr-rdiv{
+    margin-right: 5%;
+}
+.ml-30{
+    margin-left: 30%;
+}
+
+.mr-30{
+    margin-right: 30%;
+}
+
+.font-c{
+    font-family: cursive;
+}
+
+
+
+
