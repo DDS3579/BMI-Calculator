@@ -20,8 +20,8 @@ function calculate() {
       output.innerText = "Well Done! You Have a Healthy Weight";
       output.style.color = "green";
     } else if (final >= 25 && final <= 29.9) {
-      output.innerText = "You Need To Control Your Weight!";
-      output.style.color = "green";
+      output.innerText = "You Need To Reduce Your Weight!";
+      output.style.color = "#ff4747";
     } else {
       output.innerText = "Get Slim Dude You are OBESE!";
       output.style.color = "maroon";
@@ -40,8 +40,8 @@ function calculate() {
       output.innerText = "Well Done! You Have a Healthy Weight";
       output.style.color = "green";
     } else if (final >= 25 && final <= 29.9) {
-      output.innerText = "You Need To Control Your Weight!";
-      output.style.color = "green";
+      output.innerText = "You Need To Reduce Your Weight!";
+      output.style.color = "#ff4747";
     } else {
       output.innerText = "Get Slim Dude You are OBESE!";
       output.style.color = "maroon";
@@ -61,8 +61,8 @@ function calculate() {
       output.innerText = "Well Done! You Have a Healthy Weight";
       output.style.color = "green";
     } else if (final >= 25 && final <= 29.9) {
-      output.innerText = "You Need To Control Your Weight!";
-      output.style.color = "green";
+      output.innerText = "You Need To Reduce Your Weight!";
+      output.style.color = "#ff4747";
     } else {
       output.innerText = "Get Slim Dude You are OBESE!";
       output.style.color = "maroon";
@@ -82,8 +82,8 @@ function calculate() {
       output.innerText = "Well Done! You Have a Healthy Weight";
       output.style.color = "green";
     } else if (final >= 25 && final <= 29.9) {
-      output.innerText = "You Need To Control Your Weight!";
-      output.style.color = "green";
+      output.innerText = "You Need To Reduce Your Weight!";
+      output.style.color = "#ff4747";
     } else {
       output.innerText = "Get Slim Dude You are OBESE!";
       output.style.color = "maroon";
